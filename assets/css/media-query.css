@@ -1,0 +1,132 @@
+@media (min-width:768px ){
+    .hero{
+        padding-top: 3%;
+        padding-bottom: 20%;
+        background-color: #f8fbff;
+        background-image: url('../img/Image-1.svg'), url('../img/Image.svg');
+        background-position: left center, right, center;
+        background-repeat: no-repeat;
+        /* background-size: 50% 100% 50% 100%; */
+        background-size: 50% 100% ;
+        height:  100vh;
+        width: 100%;
+        
+    }
+    .hero-heading{
+        padding-top: 10%;
+    }
+    .hero-img-section {
+        margin-right: 10%;
+      }
+      .card-container {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+ }
+
+ @media(max-width:768px){
+  .hero h1{
+    font-size: 35px;
+    font-weight: 700;
+   text-align: center;
+  }
+  .explore-btn{
+    padding: 0px !important;
+  }
+  .owl-carousel{
+    padding: 0px !important;
+  }
+  .why-choose-us-container{
+    padding: 0px !important;
+  }
+  .services-container{
+    padding: 0px !important;
+  }
+  .more-projects p{
+    font-size: 16px;
+    padding: 1px;
+  }
+  .services-heading h1{
+    font-size: 36px;
+  }
+  .services-heading p{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .see-more-btn{
+    padding: 10px !important;
+  }
+  .more-projects{
+    padding-bottom: 0 !important;
+    margin-left: 2px !important;
+    margin-right: 3px !important;
+  }
+  .explore-btn{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .explore-btn .btn {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+  .marquee img, .marquee .motto-text {
+    display:block;
+    white-space: nowrap;
+    margin: 0 !important;
+  }
+  .service-page-card{
+    height: auto;
+    padding: 20px !important;
+  }
+  .services-container{
+    padding: 0 !important;
+  }
+  .card-text{
+    padding: 5px !important;
+    font-size: 14px !important;
+  }
+  .portfolio-page-card{
+    margin: 0 !important;
+    padding: 5px !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+  .mission-card{
+    height: auto !important;
+  }
+  #vision-mission{
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #vision-mission .card-body{
+    padding: 0;
+  }
+  .about-us-container{
+    padding: 0 !important;
+  }
+  #about-us .services-heading{
+    padding: 20px !important;
+  }
+  .core-values-container .services-heading, .core-values-container{
+    padding: 0 !important;
+  }
+  .m-faq{
+    display: block;
+  }
+  .d-faq{
+    display: none;
+  }
+  .support-container{
+    padding: 10px !important;
+  }
+  #store-hero .sub-heading{
+    padding: 0 !important;
+  }
+  #store-hero p{
+    padding: 0 !important;
+  }
+  #store-hero h1{
+  font-size: 40px;
+  }
+ }

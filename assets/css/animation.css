@@ -1,0 +1,186 @@
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleUpAndMove {
+    0% {
+        transform: scale(0) translate(0, 0);
+    }
+    100% {
+        transform: scale(1) translate(0, 0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.slide-in-bottom {
+    animation: slideInFromBottom 2.5s ease-out;
+    visibility: visible;  
+}
+.slide-in-bottom-2 {
+    animation: slideInFromBottom 1s ease-out;
+    visibility: visible;  
+}
+.slide-in-top {
+    animation: slideInFromTop 2.5s ease-out;
+    visibility: visible;  
+}
+.slide-in-top-heading {
+    animation: slideInFromTop 1.5s;
+    visibility: visible;  
+}
+.zoom-in {
+    animation: scaleUp 2.5s ease-out;
+    visibility: visible;  
+}
+
+.slide-in-left {
+    animation: slideInFromLeft 1s ease-out;
+    visibility: visible;  
+}
+.slide-in-right {
+    animation: slideInFromRight 1s ease-out;
+    visibility: visible;  
+}
+.fade-in {
+    animation: fadeIn 2s ease-out;
+    visibility: visible;  
+}
+
+.hero-heading {
+    animation: slideInFromTop 2.5s ease-out;
+}
+
+.hero-img-section img {
+    animation: scaleUpAndMove 2.5s ease-out;
+    transform-origin: top left; /* Set the transform origin to the top right corner */
+}
+.hero-action-btn{
+    animation: slideInFromBottom 2.5s ease-out;
+}
+.services-heading{
+    visibility: hidden;
+}
+
+.why-choose-us-img{
+    visibility: hidden;
+}
+
+.why-choose-us-scrollbar{
+    visibility: hidden;
+}
+.owl-carousel{
+    visibility: hidden;
+}
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-left {
+    animation: slideFromLeft 1s ease-out;
+    animation-delay: 2s;
+
+}
+    
+
+.animate-bottom {
+    animation: slideFromBottom 1s ease-out;
+    animation-delay: 2s;
+}
+
+.animate-right {
+    animation: slideFromRight 1s ease-out;
+    animation-delay: 2s;
+
+}
+#portfolio .left, #portfolio .right{
+    visibility: hidden;
+}
+.services-card.left-1, .services-card.right-1, .services-card.left-2, .services-card.right-2, .services-card.bottom-1, .services-card.bottom-1{
+    visibility: hidden;
+}

@@ -1,0 +1,2 @@
+$(".pickadate").pickadate();
+$(".pickatime").pickatime();
